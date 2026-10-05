@@ -1,0 +1,37 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated simulator libraries, logs and waveforms
+work/
+modelsim.ini
+transcript
+*.wlf
+*.vcd
+*.fst
+*.vpd
+*.fsdb
+*.vvp
+
+# Generated FPGA implementation directories
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+db/
+incremental_db/
+output_files/
+build/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
